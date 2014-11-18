@@ -74,58 +74,39 @@
 \hyphenation{Sil-ben-tren-nung} %forced hyphenation
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% ****************** Das Dokument selbst ******************
+% ****************** the doc itself ******************
 \begin{document}
+
+%% Title. Use either TitleA or TitleB
+% TitleA
+\input{userdefined_titlepage}
+
+%% TitleB
+%\title{Versuchsausarbeitung: M2}
+%\author{Jon Doe}
+%\date{\today}
+%\label{titelpage}
+%\maketitle
+
+%%% table of content
 \pagenumbering{Roman}
-
-\begin{titlepage}
-\title{Versuchsausarbeitung: M2}
-\author{Michael Jost, Sebastian Schleich}
-\date{23.10.2013}
-\begin{center} 
-\label{titelpage}
-\vfill{}{\Huge \bf Versuchsausarbeitung:}
-\vfill{}{\Huge \bf $M^2$}
-
-\vfill{}{\huge Versuch zur räumlichen Charakterisierung\\
-				von Laserstrahlung}
-		
-\vfill{\it vorgelegt von} 
-\vfill{\bf Michael Jost\\Sebastian Schleich}
-
-\end{center}
-\vfill{}{}
-\begin{tabbing}
-
-erste SpaltebbbreitbreiSpaltebbbreitbrei\= zweite Spalte breit zweite Spalte breit breit\kill
-Studiengang/Semester:		\> Photonik Master / 2. Semester\\ \\
-Durchführung:				\> Mittwoch, 23.10.2013\\ \\
-Abgabe:						\>................................  \\ \\
-Versuchsbereuer:			\>  Dr. Lutz Langhans\\
-\\ \\
-\end{tabbing}
-\begin{center}
-aus der Vorlesung Laserphysik, nichtlineare Optik, Ultrakurzpulsoptik WS 2013/2014\\
-FK 06, Fakultät für angewandte Wissenschaften und Mechatronik\\
-Hochschule München
-\end{center}
-\end{titlepage}
-
 \clearpage
 \setcounter{page}{0}
 \newpage
 \pdfbookmark[1]{Inhaltsverzeichnis}{toc}
 \tableofcontents 
 
+%%% doc chapters
 \clearpage
 \setcounter{page}{0}
 \setcounter{table}{0}
 \setcounter{secnumdepth}{3}
 \setcounter{chapter}{0}
 \pagenumbering{arabic}
-\input{Einfuehrung}
+\input{text_template}
 
+%%% Appendix (if needed)
 \setcounter{figure}{0}
-\input{Anhaenge}
+\input{appendix}
 
 \end{document}
