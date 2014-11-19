@@ -1,0 +1,29 @@
+\newpage
+%\null
+%\cleardoublepage
+
+
+
+%************************************************************************************************
+% de_mirrage
+%************************************************************************************************
+
+\chapter{Mirrage}
+\label{chap:mirrage}
+Mirrage ist die wohl meist gespiele Map in der Geschichte des CS.
+
+\section{CT Taktiken}
+\label{sect:mirrage_ct}
+Mirrage CT Tactics
+
+\section{T Taktiken}
+\label{sect:mirrage_t}
+Mirrage T Tactics
+
+\section{Nades}
+\label{sect:mirrage_nades}
+Mirrage Nades
+
+\section{Positions}
+\label{sect:mirrage_positions}
+Mirrage Positions

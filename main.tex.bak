@@ -39,6 +39,7 @@
 \usepackage{subfigure}
 %\usepackage{ltxtable}
 \usepackage{units}
+\usepackage{graphicx}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % ************* own environment defintions *************
@@ -77,13 +78,13 @@
 % ****************** the doc itself ******************
 \begin{document}
 
-%% Title. Use either TitleA or TitleB
+%%% Title. Use either TitleA or TitleB
 % TitleA
 \input{userdefined_titlepage}
 
 %% TitleB
-%\title{Versuchsausarbeitung: M2}
-%\author{Jon Doe}
+%\title{NOT(The BOT Troy Tacticguide)}
+%\author{Sebastian 'kizzm' Schleich}
 %\date{\today}
 %\label{titelpage}
 %\maketitle
@@ -103,10 +104,14 @@
 \setcounter{secnumdepth}{3}
 \setcounter{chapter}{0}
 \pagenumbering{arabic}
-\input{text_template}
+% input chapters here
+\input{dust2}
+\input{mirrage}
+\input{nuke}
 
 %%% Appendix (if needed)
-\setcounter{figure}{0}
-\input{appendix}
+%\setcounter{figure}{0}
+%% input appendix here
+%\input{appendix}
 
 \end{document}
