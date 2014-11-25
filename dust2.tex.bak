@@ -10,7 +10,7 @@
 
 \chapter{Dust 2}
 \label{chap:dust2}
-Dust 2 ist die wohl meist gespiele Map in der Geschichte des CS.
+Dust 2
 
 \section{CT Taktiken}
 \label{sect:dust2_ct}
@@ -24,29 +24,10 @@ Dust 2 T Tactics
 \label{sect:dust2_nades}
 Dust 2 Nades
 
-\subsection{A Spot}
-\label{subsect:dust2_nades_A}
-A Spot
-
-\subsection{B Spot}
-\label{subsect:dust2_nades_B}
-B Spot
-
-\subsection{Long}
-\label{subsect:dust2_nades_long}
-Long
-
-\subsection{Short}
-\label{subsect:dust2_nades_short}
-Short
-
-\subsection{Mid}
-\label{subsect:dust2_nades_mid}
-Mitte
-\subsection{Tunnels}
-\label{subsect:dust2_nades_tunnels}
-Katas / Tunnels
-
 \section{Positions}
 \label{sect:dust2_positions}
 Dust 2 Positions
+
+\section{Wallbangs}
+\label{sect:dust2_wallbangs}
+Dust 2 Wallbangs

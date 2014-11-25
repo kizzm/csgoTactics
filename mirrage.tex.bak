@@ -10,7 +10,7 @@
 
 \chapter{Mirrage}
 \label{chap:mirrage}
-Mirrage ist die wohl meist gespiele Map in der Geschichte des CS.
+Mirrage
 
 \section{CT Taktiken}
 \label{sect:mirrage_ct}
@@ -18,12 +18,72 @@ Mirrage CT Tactics
 
 \section{T Taktiken}
 \label{sect:mirrage_t}
-Mirrage T Tactics
+Dust 2 T Tactics
 
 \section{Nades}
 \label{sect:mirrage_nades}
-Mirrage Nades
+% Overview Table
+\begin{center}
+\begin{tabular}{ |c|r|l| }
+\hline
+\multicolumn{3}{ |c| }{Mirage Nades Overview} \\
+\hline
+Type
+ & Name (destination) & Position (throw from) \\ \hline
+\multirow{7}{*}{Smokes} 
+ & window 
+ 	& trash bin \\
+ & window 
+ 	& palace entrance \\
+ & window 
+ 	& terror-spawn \\
+ & karrigan 
+ 	& terror-roof \\ 
+ & short (box)
+ 	& appartments \\
+ & underwooden
+ 	& palace \\
+ & perfect jungle
+ 	& terror-spawn \\
+ 	
+\hline
+ 	
+\multirow{5}{*}{Flashes} 
+ & B-side
+ 	& appartments \\
+ & B-spot
+ 	& appartments \\
+ & appartments window 
+ 	& appartments \\
+ & underwooden 
+ 	& action \\
+ & middle
+ 	& connector (A-side) \\
+ 	
+\hline
+ 
+\multirow{3}{*}{Molotovs} 
+ & bench
+ 	& appartment \\
+ & van
+ 	& appartment \\
+ & E-Stairs
+ 	& terror-roof \\
+ 	
+\hline
+ 
+\multirow{1}{*}{Grenade}
+ & underwooden 
+ 	& palace \\ 
+
+\hline
+\end{tabular}
+\end{center}
 
 \section{Positions}
 \label{sect:mirrage_positions}
 Mirrage Positions
+
+\section{Wallbangs}
+\label{sect:mirrage_wallbangs}
+Mirrage Wallbangs
